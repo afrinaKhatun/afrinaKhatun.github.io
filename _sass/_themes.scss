@@ -2,6 +2,41 @@
    SHARED THEME SETTINGS
    ========================================================================== */
 
+/* Sidebar nudge */
+.sidebar {
+  padding-left: 2em !important;
+}
+
+/* Center-align everything under the profile image */
+.author__content {
+  text-align: center !important;
+}
+
+.author__icons-row {
+  justify-content: center;
+}
+
+/* Horizontal social icons row */
+.author__icons-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 0.4em;
+  margin-top: 0.75em;
+  padding-left: 0;
+
+  a {
+    font-size: 1.2em;
+    color: inherit;
+    text-decoration: none;
+    flex-shrink: 0;
+
+    &:hover {
+      color: #52adc8;
+    }
+  }
+}
+
 /* ==========================================================================
    TYPOGRAPHY
    ========================================================================== */
